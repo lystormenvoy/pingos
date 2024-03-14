@@ -185,7 +185,7 @@ ngx_rtmp_mpegts_gen_pmt(ngx_int_t vcodec, ngx_int_t acodec,
         default:
             if (log) {
                 ngx_log_error(NGX_LOG_ERR, log, 0,
-                    "rtmp: gen_pmt| unknown video codec (%d)", vcodec);
+                    "rtmp: gen_pmt| unknown audio codec (%d)", acodec);
             }
     }
 
